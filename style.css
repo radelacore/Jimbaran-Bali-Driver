@@ -31,7 +31,7 @@ nav a{margin-left:16px;text-decoration:none;font-size:14px;color:var(--muted)}
 .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;display:flex;flex-direction:column}
 .about{flex-direction:row;gap:18px;align-items:center;flex-wrap:wrap}
-.pic{width:96px;height:96px;border-radius:50%;background:var(--line);display:grid;place-items:center;text-align:center;font-size:12px;color:var(--muted);flex:none;padding:6px}
+.pic{width:96px;height:96px;border-radius:50%;background:var(--line);display:grid;place-items:center;text-align:center;font-size:12px;color:var(--muted);flex:none;padding:0;object-fit:cover}
 .card p{margin:6px 0}
 .float{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:25;box-shadow:0 6px 18px rgba(0,0,0,.28)}
 .eyebrow{color:var(--ot);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
